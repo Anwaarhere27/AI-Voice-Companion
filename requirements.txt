@@ -1,0 +1,13 @@
+faster-whisper
+groq
+sounddevice
+numpy
+scipy
+torch
+torchaudio
+transformers
+accelerate
+sentencepiece
+pygame
+python-dotenv
+silero-vad
