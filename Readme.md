@@ -19,3 +19,18 @@ This project demonstrates a complete end-to-end voice AI pipeline:
 - 🖥️ Lightweight CLI-based system (no frontend required)
 
 ---
+
+### Create .env File
+- Write the following line in the file:
+- GROQ_API_KEY=YOUR GROQ API KEY
+- Add your GROQ API KEY
+
+#### How To Run:
+- Clone repo
+- Run following commands in the terminal:
+- python -m venv venv
+- venv/scripts/activate
+- pip install -r requirements.txt
+- python main.py
+
+---
