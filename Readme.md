@@ -1,22 +1,21 @@
-# 🎙️ Real-Time AI Voice Companion
+# 🎙️ AI Voice Companion (Whisper + GROQ + TTS + Tools)
 
-A real-time AI voice assistant that listens to speech, converts it to text, generates intelligent responses using Groq LLM, and speaks back using Edge-TTS.
+A real-time voice-based AI agent that listens to your speech, understands intent, routes it to the correct tool (LLM / calculator / Wikipedia / weather), and responds back using speech.
 
-This project demonstrates a complete end-to-end voice AI pipeline:
-
-**🎤 Speech → 🧠 LLM → 🔊 Speech**
+This project demonstrates a **multi-tool AI agent architecture** with speech-to-text, LLM reasoning, tool execution, and text-to-speech in a single pipeline.
 
 ---
 
-## 🚀 Features
+# 🚀 Features
 
-- 🎧 Real-time microphone input (Speech-to-Text using Whisper)
-- 🧠 AI responses using Groq LLM (Llama models)
-- 🔊 Fast text-to-speech using Edge-TTS (low latency)
-- ⚡ Near real-time conversational experience
-- 💬 Continuous voice interaction loop
-- 🧹 Automatic temporary file handling
-- 🖥️ Lightweight CLI-based system (no frontend required)
+- 🎤 Real-time Speech-to-Text (Whisper)
+- 🧠 LLM responses (GROQ API)
+- 🌤 Live Weather Integration (OpenWeather API)
+- ➗ Smart Calculator (natural language math)
+- 📚 Wikipedia knowledge lookup
+- 🔊 Text-to-Speech (Edge TTS / Bark support)
+- 🧠 Tool routing (basic rule-based agent system)
+- 📴 Exit commands: `bye`, `exit`, `quit`
 
 ---
 
