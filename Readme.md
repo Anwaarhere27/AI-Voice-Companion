@@ -22,7 +22,9 @@ This project demonstrates a **multi-tool AI agent architecture** with speech-to-
 ### Create .env File
 - Write the following line in the file:
 - GROQ_API_KEY=YOUR GROQ API KEY
+- WEATHER_API_KEY=YOUR WEATHER API KEY
 - Add your GROQ API KEY
+- ADD YOUR WEATHER API KEY FROM weatherapi.com
 
 #### How To Run:
 - Clone repo
